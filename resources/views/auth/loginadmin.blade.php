@@ -1,14 +1,5 @@
 <!doctype html>
-<!--
-* Tabler - Premium and Open Source dashboard template with responsive and high quality UI.
-* @version 1.0.0-beta19
-* @link https://tabler.io
-* Copyright 2018-2023 The Tabler Authors
-* Copyright 2018-2023 codecalm.net Paweł Kuna
-* Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
--->
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
@@ -42,8 +33,6 @@
                 <div class="col-lg">
                     <div class="container-tight">
                         <div class="text-center mb-4">
-                            <a href="." class="navbar-brand navbar-brand-autodark"><img src="./static/logo.svg"
-                                    height="36" alt=""></a>
                         </div>
                         <div class="card card-md">
                             <div class="card-body">
@@ -69,21 +58,7 @@
                                         <div class="input-group input-group-flat">
                                             <input type="password" name="password" class="form-control"
                                                 placeholder="" autocomplete="off">
-                                            <span class="input-group-text">
-                                                <a href="#" class="link-secondary" title="Show password"
-                                                    data-bs-toggle="tooltip">
-                                                    <!-- Download SVG icon from http://tabler-icons.io/i/eye -->
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon"
-                                                        width="24" height="24" viewBox="0 0 24 24"
-                                                        stroke-width="2" stroke="currentColor" fill="none"
-                                                        stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                        <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-                                                        <path
-                                                            d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
-                                                    </svg>
-                                                </a>
-                                            </span>
+
                                         </div>
                                     </div>
 
@@ -98,8 +73,6 @@
             </div>
         </div>
         <div class="col-lg d-none d-lg-block">
-            <img src="{{ asset('tabler/static/illustrations/undraw_secure_login_pdn4.svg') }}" height="300"
-                class="d-block mx-auto" alt="">
         </div>
     </div>
     </div>

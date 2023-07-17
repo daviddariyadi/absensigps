@@ -10,7 +10,7 @@
     <title>Absensi Radius</title>
     <meta name="description" content="Mobilekit HTML Mobile UI Kit">
     <meta name="keywords" content="bootstrap 4, mobile template, cordova, phonegap, mobile, html" />
-    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ asset('assets/img/login/absensi.png') }}" sizes="32x32">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/icon/192x192.png') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="manifest" href="__manifest.json">
@@ -30,11 +30,11 @@
 
         <div class="login-form mt-1">
             <div class="section">
-                <img src="{{ asset('assets/img/login/login.jpg') }}" alt="image" class="form-image">
+                <img src="{{ asset('assets/img/login/absensi.png') }}" alt="image" class="form-image">
             </div>
             <div class="section mt-1">
                 <h1>Login</h1>
-                <h4>Masukkan NIK dan Password</h4>
+                <h4>Masukkan NIP dan Password</h4>
             </div>
             <div class="section mt-1 mb-5">
                 @php
@@ -49,7 +49,7 @@
                     @csrf
                     <div class="form-group boxed">
                         <div class="input-wrapper">
-                            <input type="text" name="nik" class="form-control" id="nik" placeholder="NIK">
+                            <input type="text" name="nik" class="form-control" id="nik" placeholder="NIP">
                             <i class="clear-input">
                                 <ion-icon name="close-circle"></ion-icon>
                             </i>

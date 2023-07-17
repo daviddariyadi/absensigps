@@ -5,7 +5,6 @@
             <div id="user-info">
             <h2 id="user-name">{{Auth::guard('karyawan')->user()->nama_lengkap }}</h2>
             <span id="user-role">{{Auth::guard('karyawan')->user()->jabatan}}</span>
-                <h2 id="user-name" style="text-align :center; margin : 11px;">Selamat Datang di Halaman Dashboard Absensi</h2>
             </div>
         </div>
         </div>
